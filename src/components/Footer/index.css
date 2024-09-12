@@ -1,0 +1,14 @@
+.footer-h1{
+    color: lightseagreen;
+    text-align: left;
+  
+  }
+  
+  .footer-div{
+    box-shadow: inset;
+    margin: auto;
+    width: 100%;
+    border: 3px solid; 
+    color:goldenrod;
+    padding: 10px;
+  }
