@@ -4,12 +4,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // Import Bootstrap JS and Popper.js
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
-
+import './navbar.css'
 
 
 export default function navbar (){
     return(
-        <div>
+        <div className="navbar">
            <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">Ramsey's Page</a>

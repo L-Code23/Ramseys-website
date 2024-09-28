@@ -1,5 +1,5 @@
 
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
 import Footer from "./components/Footer";
 import WelcomeBar from "./components/WelcomeBar/WelcomeBar";

@@ -7,13 +7,37 @@ import "./About.css";
 export default function About() {
   return (
     <>
-      <div paragraph-Div>
-        <div className="card width: 18rem tech-Card">
-          <img src="..." className="card-img-top" alt="..." />
-          <div className="card-body">
-            With a passion for problem-solving and a hands-on approach to
-            learning, I’ve transitioned into the tech industry after spending 12
-            years as a professional brewer.
+      <div>
+        <div className="paragraph-Div col-4">
+          <div className="card width: 18rem tech-Card">
+            <img src="..." className="card-img-top" alt="..." />
+            <div className="card-body">
+              With a passion for problem-solving and a hands-on approach to
+              learning, I’ve transitioned into the tech industry after spending
+              12 years as a professional brewer.
+            </div>
+          </div>
+        </div>
+
+        <div className="paragraph-Div col-4">
+          <div className="card width: 18rem tech-Card">
+            <img src="..." className="card-img-top" alt="..." />
+            <div className="card-body">
+              With a passion for problem-solving and a hands-on approach to
+              learning, I’ve transitioned into the tech industry after spending
+              12 years as a professional brewer.
+            </div>
+          </div>
+        </div>
+
+        <div className="paragraph-Div col-4">
+          <div className="card width: 18rem tech-Card">
+            <img src="..." className="card-img-top" alt="..." />
+            <div className="card-body">
+              With a passion for problem-solving and a hands-on approach to
+              learning, I’ve transitioned into the tech industry after spending
+              12 years as a professional brewer.
+            </div>
           </div>
         </div>
       </div>
