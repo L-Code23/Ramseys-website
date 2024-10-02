@@ -39,4 +39,23 @@
   color: #888;
 }
 
+.flex-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+ 
 
+
+
+}
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+.flex-container > .flex-items{
+  align-self: auto;
+  height: auto;
+  width: auto;
+}

@@ -8,9 +8,10 @@ import "./About.css";
 export default function brewing(){
 return (
     <>
+    <div className="row">
     <div className="card col-sm">
           <div className="card width: 18rem tech-Card">
-            <img src="..." className="card-img-top" alt="..." />
+            <img src="src\assets\ramsey-beer.JPEG" className="card-img-top" alt="..." />
             <div className="card-body">
               With a passion for problem-solving and a hands-on approach to
               learning, I’ve transitioned into the tech industry after spending
@@ -18,6 +19,8 @@ return (
             </div>
           </div>
         </div>
+    </div>
+    
     </>
 
 )

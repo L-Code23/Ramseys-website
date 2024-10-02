@@ -1,21 +1,21 @@
 
 import Navbar from "./components/Navbar/Navbar";
-
 import Footer from "./components/Footer";
 import WelcomeBar from "./components/WelcomeBar/WelcomeBar";
-import Brewing from "./components/About/Brewing";
-import About from "./components/About/About";
-import Tech from "./components/About/Tech";
+import About from "./components/About/about";
+import Brewing from "./components/About/brewing";
+import Tech from "./components/About/tech";
+import "./App.css"
 
 function App(){
   return(
     <div className="app-background">
        <Navbar />
        <WelcomeBar />
-       <div className="row col-md">
-       <About />
-       <Brewing />
-       <Tech />
+       <div className="flex-container">
+       <div className ="flex-item"><About /></div>
+       <div className ="flex-item"><Brewing /></div>
+       <div className ="flex-item"><Tech /></div>
 
        </div>
        <Footer />
