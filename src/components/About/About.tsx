@@ -4,33 +4,24 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./About.css";
 
-export default function About() {
+export default function about() {
   return (
     <>
-      <div>
-        <div className="paragraph-Div col-4">
-          <div className="card width: 18rem tech-Card">
-            <img src="..." className="card-img-top" alt="..." />
+      <div className="row">
+        <div className="card col-sm">
+          <div className="card width: 18rem ">
+            <img src="src\assets\abstract-tech.png" className="card-img-top" alt="..." />
             <div className="card-body">
               With a passion for problem-solving and a hands-on approach to
               learning, I’ve transitioned into the tech industry after spending
-              12 years as a professional brewer.
+              12 years as a professional brewer...
             </div>
           </div>
         </div>
 
-        <div className="paragraph-Div col-4">
-          <div className="card width: 18rem tech-Card">
-            <img src="..." className="card-img-top" alt="..." />
-            <div className="card-body">
-              With a passion for problem-solving and a hands-on approach to
-              learning, I’ve transitioned into the tech industry after spending
-              12 years as a professional brewer.
-            </div>
-          </div>
-        </div>
+        
 
-        <div className="paragraph-Div col-4">
+        <div className="card col-sm">
           <div className="card width: 18rem tech-Card">
             <img src="..." className="card-img-top" alt="..." />
             <div className="card-body">

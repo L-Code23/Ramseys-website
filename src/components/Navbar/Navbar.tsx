@@ -35,7 +35,7 @@ export default function navbar (){
           </ul>
         </li>
         <li className="nav-item">
-          <a className="nav-link disabled" aria-disabled="true">Disabled</a>
+          <a className="nav-link disabled" aria-disabled="true"></a>
         </li>
       </ul>
       <form className="d-flex" role="search">

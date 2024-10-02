@@ -8,15 +8,16 @@
     box-shadow: inset;
     margin: auto;
     width: 100%;
-    border: 3px solid; 
-    color:goldenrod;
+    border: 3px solid;
+    border-color: aliceblue;
+    background-color: cadetblue;
     padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    
+    
   }
   .footer-links{
     font-size: medium;
+    text-align: left;
 
   }
  

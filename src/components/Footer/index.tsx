@@ -25,8 +25,8 @@ export default function Footer() {
           </a>
         
 
-      </div>
         <small>Louder Development © 2024</small>
+      </div>
     </>
   );
 }

@@ -1,24 +1,16 @@
-.about-Paragraph{
+.card{
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
+    border: black;
+    
 }
 paragraph-Div{
     margin-top: 200px;
    
 }
 
-tech-Card{
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    
-}
-card-Div{
-    
-}
+
 
