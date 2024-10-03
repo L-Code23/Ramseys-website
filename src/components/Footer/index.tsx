@@ -9,21 +9,22 @@ export default function Footer() {
   return (
     <>
       <div className="footer-div">
-        
-          <h3 className="footer-h1">Find me at: </h3>
-          <a
-            className="nav-link footer-links"
-            href="https://www.linkedin.com/in/ramseyjlouder/"
-          >
-            LinkedIn
-          </a>
-          <a
-            className="nav-link footer-links"
-            href="https://github.com/L-Code23/"
-          >
+        <div className="flex-container">
+          <div className="align-self: start">
+            <h3 className="footer-h1">Find me at: </h3>
+          </div>
+          <div>
+            <a
+              className="footer-links"
+              href="https://www.linkedin.com/in/ramseyjlouder/"
+            >
+              LinkedIn
+            </a>
+          </div>
+          <a className="footer-links" href="https://github.com/L-Code23/">
             GitHub
           </a>
-        
+        </div>
 
         <small>Louder Development © 2024</small>
       </div>

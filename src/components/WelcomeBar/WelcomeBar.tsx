@@ -9,7 +9,7 @@ export default function welcomeBar(){
     return(
         <div className="container welcomeBar">
         <h1>My Journey into Tech</h1>
-        <p> Follow alongs as we walk though my journey into tech.</p>
+        <p> Follow along as I walk though my journey into tech.</p>
         </div>
     )
 }

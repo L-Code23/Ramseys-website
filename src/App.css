@@ -58,4 +58,6 @@
   align-self: auto;
   height: auto;
   width: auto;
+  border-radius: 10px;
+  border-color: darkgoldenrod;
 }
