@@ -6,10 +6,19 @@ import About from "./components/About/about";
 import Brewing from "./components/About/brewing";
 import Tech from "./components/About/tech";
 import "./App.css"
+import {Routes, Route} from 'react-router-dom';
+
+import AboutCopy from "./components/About/about-copy";
 
 function App(){
   return(
     <div className="app-background">
+       <Routes>
+          <Route path="/" element={<WelcomeBar />} />
+          <Route path="/aboutcopy" element={< AboutCopy/>}/>
+          <Route path="/brewing" element={<Brewing />}/>
+          <Route path="/tech" element={<Tech />}/>
+       </Routes>
        <Navbar />
        <WelcomeBar />
        <div className="flex-container">
