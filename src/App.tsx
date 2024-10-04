@@ -1,41 +1,19 @@
+import MainPage from "./components/MainPage/MainPage";
+import "./App.css";
 
-import Navbar from "./components/Navbar/Navbar";
-import Footer from "./components/Footer";
-import WelcomeBar from "./components/WelcomeBar/WelcomeBar";
-import About from "./components/About/about";
-import Brewing from "./components/About/brewing";
-import Tech from "./components/About/tech";
-import "./App.css"
-import {Routes, Route} from 'react-router-dom';
 
-import AboutCopy from "./components/About/about-copy";
-
-function App(){
+export default function App() {
   return(
-    <div className="app-background">
-       <Routes>
-          <Route path="/" element={<WelcomeBar />} />
-          <Route path="/aboutcopy" element={< AboutCopy/>}/>
-          <Route path="/brewing" element={<Brewing />}/>
-          <Route path="/tech" element={<Tech />}/>
-       </Routes>
-       <Navbar />
-       <WelcomeBar />
-       <div className="flex-container">
-       <div className ="flex-item"><About /></div>
-       <div className ="flex-item"><Brewing /></div>
-       <div className ="flex-item"><Tech /></div>
+<>
+  <MainPage />
 
-       </div>
-       <Footer />
-    
-    
-    
-    </div>
-
+  </>
   )
 }
 
 
 
-export default App;
+  
+
+
+

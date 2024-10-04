@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // Import Bootstrap JS and Popper.js
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./About.css";
+import { Link } from "react-router-dom";
 
 
 export default function tech(){
@@ -16,7 +17,7 @@ return (
             With a passion for problem-solving and a hands-on approach to
             learning, I’ve transitioned into the tech industry after spending
             12 years as a professional brewer.
-            <div><a className="btn btn-success" href="#" role="button">Learn more</a></div>
+            <div><Link to={"/tech-c"}><button className="btn btn-success ">Brewing</button></Link></div>
           </div>
         </div>
       </div>

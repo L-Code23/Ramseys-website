@@ -10,8 +10,8 @@ export default function Footer() {
     <>
       <div className="footer-div">
         <div className="flex-container">
-          <div className="align-self: start">
-            <h3 className="footer-h1">Find me at: </h3>
+          <div className="footer-h3">
+            <h3 className="justify-self">Find me at: </h3>
           </div>
           <div>
             <a

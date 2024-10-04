@@ -5,6 +5,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./About.css";
 import { Link } from "react-router-dom";
 
+
 export default function about() {
   return (
     <>
@@ -21,9 +22,9 @@ export default function about() {
               learning, I’ve transitioned into the tech industry after spending
               12 years as a professional brewer...
               <div>
-                <link to="/aboutcopy">
-                  <button className="btn btn-success"></button>
-                </link>
+                 <Link to="/about"> 
+                  <button className="btn btn-success">About</button>
+                 </Link> 
               </div>
             </div>
           </div>

@@ -1,6 +1,7 @@
-.footer-h1{
+.footer-h3{
     color: black;
-    margin: auto;
+    justify-content: flex-start;
+  
   }
   
   .footer-div{
