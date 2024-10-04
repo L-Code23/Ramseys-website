@@ -13,7 +13,7 @@ export default function about() {
         <div className="card col-sm">
           <div className="card-width: 18rem ">
             <img
-              src="src\assets\Ramsey statue.jpg"
+              src="src\assets\Beer-Motivation.jpg"
               className="card-img-top"
               alt="..."
             />

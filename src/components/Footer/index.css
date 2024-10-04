@@ -20,6 +20,7 @@
     font-size: medium;
     text-align: left;
     font-weight: bolder;
+    padding-left: 50px;
   }
   .flex-container{
     display: flex ;

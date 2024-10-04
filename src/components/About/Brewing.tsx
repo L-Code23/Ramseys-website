@@ -12,7 +12,7 @@ return (
     <div className="row">
     <div className="card col-sm">
           <div className="card-width: 18rem ">
-            <img src="src\assets\Ramsey beer tour.jpg" className="card-img-top" alt="..." />
+            <img src="src\assets\stock beer.jpg" className="card-img-top" alt="..." />
             <div className="card-body">
               With a passion for problem-solving and a hands-on approach to
               learning, I’ve transitioned into the tech industry after spending

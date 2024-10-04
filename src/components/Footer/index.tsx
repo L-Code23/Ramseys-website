@@ -13,7 +13,7 @@ export default function Footer() {
           <div className="footer-h3">
             <h3 className="justify-self">Find me at: </h3>
           </div>
-          <div>
+          <div className="padding-left: 20px">
             <a
               className="footer-links"
               href="https://www.linkedin.com/in/ramseyjlouder/"

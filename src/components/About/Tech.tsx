@@ -17,7 +17,7 @@ return (
             With a passion for problem-solving and a hands-on approach to
             learning, I’ve transitioned into the tech industry after spending
             12 years as a professional brewer.
-            <div><Link to={"/tech-c"}><button className="btn btn-success ">Brewing</button></Link></div>
+            <div><Link to={"/tech-c"}><button className="btn btn-success ">Tech Journey</button></Link></div>
           </div>
         </div>
       </div>
